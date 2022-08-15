@@ -1,0 +1,32 @@
+.container
+{
+    position: relative;
+}
+.container h2 
+{
+    position: absolute;
+    font-size: 8em;
+    transform: translate(-50%,-50%);
+}
+.container h2 :nth-child(1)
+{
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+}
+.container h2 :nth-child(2)
+{
+    color: #03a9f4;
+    animation: animatel 4s ease-in-out infinite;
+}
+
+@keyframes animatel 
+{
+    0%,100%
+    {
+        clip-path: polygon(10% 65%, 32% 75%, 44% 75%, 69% 70%, 86% 62%, 97% 57%,100% 54%, 100% 99%, 3% 100%, 1% 100%);
+    }
+    50%
+    {
+        clip-path: polygon(10% 73%, 24% 74%, 40% 74%, 66% 59%, 87% 50%, 97% 45%,100% 43%, 100% 99%, 3% 100%, 1% 100%);
+    }
+}

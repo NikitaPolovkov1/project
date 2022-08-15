@@ -1,0 +1,504 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    height: 100vh;
+    max-width: 1420px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_text
+{
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    padding: 20pt;
+}
+
+.nav_link 
+{
+    text-decoration: none;
+    color: #828282;
+    transition: color 1 linear;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 100px;
+}
+
+.nav_link:hover
+{
+    color: black;
+    font-size: 21px;
+}
+
+.line
+{
+    border-bottom: 1px solid #828282;
+}
+
+.name
+{
+    color: black;
+    font-size: 48px;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 40px;
+    margin-left: 80px;
+    max-width: 170px;
+    height: 190px;
+    float: left;
+}
+
+.name_info
+{
+    float: left;
+    max-width: 180px;
+    margin: 0 250px;
+    padding: 110px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.intro
+{
+    height: 190px;
+}
+
+.select_language
+{
+    padding-top: 80px;
+    padding-left: 10px;
+    float: left;
+    max-width: 80px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.lang
+{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px; 
+    text-decoration: none;
+    color:#828282;
+    transform: rotate(-90deg);
+    transition: color 0.25 linear;
+}
+
+.lang:hover
+{
+    color: black;
+    font-size: 24px;
+}
+
+.denis_photo
+{
+    width: 1180px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 120px;
+    background-image:url(./BSPP2266.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro_2
+{
+    max-width: 1920px;
+    width: 100%;
+    height: 55vh;
+    background-color:#F6F6F6;
+    margin-top: 100px;
+}
+
+.container_about
+{
+    width: 100%;
+    max-width: 550px;
+    height: 45vh;
+    margin: 0 auto;
+    padding-top: 5%;
+    
+    
+}
+
+.self_info_title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+.self_info_text
+{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container_skills
+{
+    max-width: 1920px;
+    width: 100%;
+    height: 75vh;
+    margin: 0 auto;
+}
+
+.skills
+{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    font-family: 'Alfa Slab One', cursive;  
+
+}
+
+.work_text
+{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+
+
+.photoshop
+{
+    margin-top: 50px;
+    margin-left: 370px;
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-image: url(./photoshop-png-logo-3085.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.illustrator
+{
+    margin-top: 50px;
+    margin-left: 370px;
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-image: url(./pngwing.com.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.after_effects
+{
+    margin-top: 50px;
+    margin-left: 370px;
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-image: url(./effects.com.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop_text
+{
+    margin-top: 50px;
+    margin-left: 375px;
+    float: left;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.illustrator_text
+{
+    margin-top: 50px;
+    margin-left: 380px;
+    float: left;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.after_effects_text
+{
+    margin-top: 50px;
+    margin-left: 380px;
+    float: left;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.star_photoshop
+{
+    margin-top: 50px;
+    margin-left: 345px;
+    max-width: 200px;
+    width: 100%;
+    height: 40px;
+    float: left;
+    background-image: url(./photo_2022-07-17_17-34-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.star_illustrator
+{
+    margin-top: 50px;
+    margin-left: 320px;
+    max-width: 200px;
+    width: 100%;
+    height: 40px;
+    float: left;
+    background-image: url(./photo_2022-07-17_17-34-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.star_after_effects
+{
+    margin-top: 50px;
+    margin-left: 320px;
+    max-width: 200px;
+    width: 100%;
+    height: 40px;
+    float: left;
+    background-image: url(./photo_2022-07-17_17-34-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.container_portfolio
+{
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    background-color:#F6F6F6;
+    margin-top: 100px;
+}
+
+
+.title_portfolio
+{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 50px;
+    font-size: 34px;
+    font-family: 'Alfa Slab One', cursive;
+    margin: auto;
+
+}
+
+.slider 
+{
+    padding-top: 100px;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.slider_text
+{
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.slick-list
+{
+    overflow: hidden;
+}
+
+.slick-track
+{
+    display: flex;
+}
+
+.slider .slick-arrow
+{
+    position: absolute;
+    z-index: 0;
+    font-size: 0;
+    width: 30px;
+    height: 50px;
+    border-style: hidden;
+}
+
+.slider .slick-arrow.slick-prev
+{
+    margin-top: 250px;
+    left: 250px;
+    background: url(./leftarrow_121320.svg) 100%  no-repeat;
+
+}
+
+.slider .slick-arrow.slick-next
+{
+    margin-top: -250px;
+    right: 300px;
+    background: url(./rightarrow_121279.svg) 100% no-repeat;
+    
+}
+
+.slider .slick-dots{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 0;
+}
+
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.slider .slick-dots li.slick-active button
+{
+    background-color: white;
+    border: 2px solid gray;
+}
+
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+
+
+.container_contacts
+{
+    width: 100%;
+    max-width: 1920px;
+    height: 75vh;
+    background-color: white;
+}
+
+.title_contacts
+{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 10%;
+}
+
+.know_more
+{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.button_send_message
+{
+    
+    margin: 3% 45.2%;
+    border-radius: 50px;
+    width: 190px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    transition: color 2s;
+}
+
+
+.button_send_message:hover
+{
+    transition: color 2s;
+    color: black;
+    background-color: #fff;
+}
+
+
+
+  
+  .social{
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  
+  /*надо задать еще position relative and overflow hidden*/
+  
+  .social__icon{
+    text-decoration: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #00000080;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow:hidden;
+  }
+  
+  .social__icon i {
+    font-size: 26px;
+    color: #67798e;
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  
+  .social__icon:after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    transform: translate(0, 70px);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .social__icon.instagram:after{
+    background-color: #833AB4;
+  }
+  .social__icon.facebook:after{
+    background-color: #3b5998;
+  }
+  .social__icon.git:after{
+    background-color: #333;
+  }
+  .social__icon.twitter:after{
+    background-color: #00acee;
+  }
+  .social__icon.linkedin:after{
+    background-color: #0e76a8;
+  }
+  .social__icon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 15px #00000080;
+  }
+  
+  .social__icon:hover i{
+     color: #fff;
+  }
+  
+  .social__icon:hover:after{
+    transform: translate(0);
+  }
